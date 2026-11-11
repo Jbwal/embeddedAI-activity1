@@ -1,0 +1,4 @@
+1. Le réseau reconnaît correctement 100.00 % des dix motifs propres.
+2. Les chiffres les plus fréquemment confondus sont 6 et 8 : le chiffre réel 6 est prédit 9 fois comme étant 8.
+3. Sur les 500 variantes bruitées, le taux global de reconnaissance est de 82.60 %.
+4. Les dix motifs appris ne représentent pas toutes les façons possibles d'écrire les chiffres. Le réseau peut donc rencontrer des difficultés face à des écritures différentes de celles utilisées pendant l'apprentissage.
