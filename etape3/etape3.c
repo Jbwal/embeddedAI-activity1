@@ -509,9 +509,7 @@ void tester_bruit(Motif motifs[NB_MOTIFS])
    ===================================================== */
 int main()
 {
-    printf("DEBUT DU PROGRAMME\n");
-    fflush(stdout);
-
+    
     Motif motifs[NB_MOTIFS];
 
     const char *fichiers[NB_MOTIFS] =
@@ -535,9 +533,7 @@ int main()
     /* Lecture des dix motifs */
     for (int i = 0; i < NB_MOTIFS; i++)
     {
-        printf("Lecture du chiffre %d : %s\n", i, fichiers[i]);
-        fflush(stdout);
-
+        
         if (!lire_motif(fichiers[i], &motifs[i]))
             return 1;
 
